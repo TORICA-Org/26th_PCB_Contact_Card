@@ -26,7 +26,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCB_BusinessCard_lib:NFC_COIL_36.7x36.7_3uH"
+		(property "Footprint" "lib:NFC_COIL_36.7x36.7_3uH"
 			(at 1.524 -7.874 0)
 			(effects
 				(font

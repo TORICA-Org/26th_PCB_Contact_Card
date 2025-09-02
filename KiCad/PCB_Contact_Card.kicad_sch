@@ -479,7 +479,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCB_BusinessCard_lib:NFC_COIL_36.7x36.7_3uH"
+			(property "Footprint" "lib:NFC_COIL_36.7x36.7_3uH"
 				(at 1.524 -7.874 0)
 				(effects
 					(font
@@ -620,13 +620,13 @@
 		(at 81.28 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "73f86d39-f5ab-4278-a6d9-2eb8b235bc67")
+		(uuid "40aea3b2-3dc8-427d-9de3-12d1d3d6a7cb")
 	)
 	(junction
 		(at 72.39 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f4071748-80d1-4355-b9fe-8f6af160c7e3")
+		(uuid "71287bda-a685-434f-9272-a56c0f07032a")
 	)
 	(wire
 		(pts
@@ -650,26 +650,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 59.69) (xy 81.28 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "485acaa7-c1ec-4ad9-a3a7-0efacb9cbd70")
-	)
-	(wire
-		(pts
-			(xy 81.28 59.69) (xy 80.01 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68bffb8f-92e7-4389-8e88-5552e35f5690")
-	)
-	(wire
-		(pts
 			(xy 72.39 82.55) (xy 73.66 82.55)
 		)
 		(stroke
@@ -677,16 +657,6 @@
 			(type default)
 		)
 		(uuid "7a21638c-10d2-416b-8aac-cfd5efa5663d")
-	)
-	(wire
-		(pts
-			(xy 72.39 59.69) (xy 72.39 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9291aa5a-1b20-4476-b4c9-3765fe633fb1")
 	)
 	(wire
 		(pts
@@ -700,6 +670,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 60.96) (xy 81.28 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a358ff6c-6fcf-4842-a3de-a7c5ba2d8dbc")
+	)
+	(wire
+		(pts
 			(xy 81.28 71.12) (xy 81.28 73.66)
 		)
 		(stroke
@@ -707,6 +687,26 @@
 			(type default)
 		)
 		(uuid "ad9dd32a-345f-4e2d-b767-143eb5977b90")
+	)
+	(wire
+		(pts
+			(xy 72.39 60.96) (xy 72.39 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee27be2-c128-46eb-aa96-d43b7b15349f")
+	)
+	(wire
+		(pts
+			(xy 81.28 60.96) (xy 81.28 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d835611d-5123-4b60-a908-9d731581eb01")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -923,16 +923,16 @@
 	)
 	(symbol
 		(lib_id "NFC_COIL_36.7x36.7_3uH:L")
-		(at 76.2 59.69 0)
+		(at 76.2 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d0894b79-781f-40d5-9b25-f3e34417bff2")
-		(property "Reference" "ANT1"
-			(at 76.2 54.61 0)
+		(uuid "e5205fd5-942f-490d-98fd-be4e417614d6")
+		(property "Reference" "L1"
+			(at 76.2 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -940,15 +940,15 @@
 			)
 		)
 		(property "Value" "L"
-			(at 76.2 57.15 0)
+			(at 76.2 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "PCB_BusinessCard_lib:NFC_COIL_36.7x36.7_3uH"
-			(at 77.724 67.564 0)
+		(property "Footprint" "lib:NFC_COIL_36.7x36.7_3uH"
+			(at 74.676 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -957,7 +957,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 59.69 90)
+			(at 76.2 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -966,7 +966,7 @@
 			)
 		)
 		(property "Description" "NFC_COIL_36.7x36.7_3uH"
-			(at 76.454 62.992 0)
+			(at 75.946 57.658 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -976,15 +976,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "0ae25455-ec20-4ca3-bd70-00e236f626e7")
+			(uuid "cfe3ae74-709b-464e-a36d-1014da005282")
 		)
 		(pin "1"
-			(uuid "af7861e8-25f4-48ed-8d6e-1401a1fa62dc")
+			(uuid "873bcdaf-9718-4146-b7ab-b5f9a67c2550")
 		)
 		(instances
 			(project ""
 				(path "/bcec56eb-8771-4eb1-814f-551b472537c2"
-					(reference "ANT1")
+					(reference "L1")
 					(unit 1)
 				)
 			)

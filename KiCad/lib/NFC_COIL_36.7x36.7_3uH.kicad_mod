@@ -4,10 +4,10 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "L**"
-		(at -2 -0.5 0)
+		(at -2.11 -1.4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "7bc8a528-0747-ae44-9dac-098d450c1113")
+		(uuid "538962f1-c095-48e4-a320-d4aafb513934")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 		)
 	)
 	(property "Value" "3.00 uH"
-		(at 0 1 0)
+		(at -0.07 1.55 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "6cd75682-bd2d-7358-5618-25627ed1e6c3")
+		(uuid "db12cc74-1a90-4b71-a1e1-6d5a95a2d997")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4cb7efd8-87ea-0a1b-0dbc-82f843e204a9")
+		(uuid "ca02b80a-5d24-40a4-ac1f-df5abe4525dd")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3f6c90b6-c6e5-36c6-7d73-596329ec74de")
+		(uuid "e5a00fbe-68e3-422e-b065-1cc8e96219fd")
 		(effects
 			(font
 				(size 1 1)
@@ -54,13 +54,35 @@
 		)
 	)
 	(attr smd)
+	(fp_rect
+		(start -0.67 -0.41)
+		(end 0.41 -0.09)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "939a9177-8430-4cc2-9782-4e08610299cc")
+	)
+	(fp_rect
+		(start 30.14 -6.795)
+		(end 31 -6.105)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "d5ad7c93-21e9-41cf-a0fe-4060576e2e11")
+	)
 	(fp_poly
 		(pts
 			(xy 0 0) (xy 36.7 0) (xy 36.7 -36.7) (xy 0 -36.7) (xy 0 -0.8) (xy 35.9 -0.8) (xy 35.9 -35.9) (xy 0.8 -35.9)
 			(xy 0.8 -1.6) (xy 35.1 -1.6) (xy 35.1 -35.1) (xy 1.6 -35.1) (xy 1.6 -2.4) (xy 34.3 -2.4) (xy 34.3 -34.3)
 			(xy 2.4 -34.3) (xy 2.4 -3.2) (xy 33.5 -3.2) (xy 33.5 -33.5) (xy 3.2 -33.5) (xy 3.2 -4) (xy 32.7 -4)
 			(xy 32.7 -32.7) (xy 4 -32.7) (xy 4 -4.8) (xy 31.9 -4.8) (xy 31.9 -31.9) (xy 4.8 -31.9) (xy 4.8 -5.6)
-			(xy 31.1 -5.6) (xy 31.1 -6.1) (xy 30.6 -6.1) (xy 5.3 -6.1) (xy 5.3 -31.4) (xy 31.4 -31.4) (xy 31.4 -5.3)
+			(xy 31.1 -5.6) (xy 31.1 -6.1) (xy 30 -6.1) (xy 5.3 -6.1) (xy 5.3 -31.4) (xy 31.4 -31.4) (xy 31.4 -5.3)
 			(xy 4.5 -5.3) (xy 4.5 -32.2) (xy 32.2 -32.2) (xy 32.2 -4.5) (xy 3.7 -4.5) (xy 3.7 -33) (xy 33 -33)
 			(xy 33 -3.7) (xy 2.9 -3.7) (xy 2.9 -33.8) (xy 33.8 -33.8) (xy 33.8 -2.9) (xy 2.1 -2.9) (xy 2.1 -34.6)
 			(xy 34.6 -34.6) (xy 34.6 -2.1) (xy 1.3 -2.1) (xy 1.3 -35.4) (xy 35.4 -35.4) (xy 35.4 -1.3) (xy 0.5 -1.3)
@@ -96,19 +118,19 @@
 		(layer "F.CrtYd")
 		(uuid "b9348925-88e5-44cb-85fa-3e999c57840b")
 	)
-	(pad "1" smd rect
-		(at -0.25 -0.25)
-		(size 0.5 0.5)
+	(pad "1" smd roundrect
+		(at 30.470625 -7.23875)
+		(size 1.26125 1.0625)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(thermal_bridge_angle 45)
-		(uuid "20ac9eb7-4188-fda5-0336-ca836481daf8")
+		(roundrect_rratio 0.15)
+		(uuid "93665c65-3e2f-4122-be63-a862512e055b")
 	)
-	(pad "2" smd rect
-		(at 30.85 -6.35)
-		(size 0.5 0.5)
+	(pad "2" smd roundrect
+		(at -1.20875 -0.2125)
+		(size 1.0225 1.025)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(thermal_bridge_angle 45)
-		(uuid "bf5da184-3952-621e-af6e-0f693fc8d8c6")
+		(roundrect_rratio 0.15)
+		(uuid "6ec8d576-879a-4920-b753-9ad12bbe8f0c")
 	)
 	(embedded_fonts no)
 )

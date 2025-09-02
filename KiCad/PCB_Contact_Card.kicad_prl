@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffff7f",
     "zone_display_mode": 0
   },
   "git": {
@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "PCB_BusinessCard.kicad_prl",
+    "filename": "PCB_Contact_Card.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -88,16 +88,16 @@
       9
     ],
     "col_widths": [
-      222,
-      207,
-      137,
-      98,
-      137,
-      137,
-      137,
-      74,
-      137,
-      137
+      259,
+      242,
+      160,
+      114,
+      160,
+      160,
+      160,
+      86,
+      160,
+      160
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
