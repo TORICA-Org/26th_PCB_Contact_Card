@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "coil")(type "KiCad")(uri "${KIPRJMOD}/lib/NFC_COIL_36.7x36.7_3uH.kicad_sym")(options "")(descr ""))
-)
