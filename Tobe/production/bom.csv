@@ -1,0 +1,5 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C1,0603,1,C,
+D2,0603,1,LED,
+L1,NFC_COIL_36.7x36.7_3uH,1,L,
+R1,0603,1,R,
